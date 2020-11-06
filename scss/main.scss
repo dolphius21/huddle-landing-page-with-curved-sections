@@ -114,6 +114,55 @@ body {
   }
 }
 
+.feature {
+  text-align: center;
+  @include media-lg {
+    text-align: left;
+  }
+
+  .grid {
+    padding: 3rem 0;
+    align-items: center;
+    @include media-lg {
+      grid-gap: 10%;
+      grid-auto-flow: dense;
+    }
+  }
+
+  .grid-col {
+    margin-bottom: 4rem;
+  }
+
+  .left {
+    grid-column: 1;
+  }
+
+  .right {
+    grid-column: 2;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    @include media-lg {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+.with-bg {
+  background: url(../images/bg-section-top-desktop.svg) repeat-x top center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

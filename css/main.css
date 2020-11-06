@@ -114,6 +114,68 @@ body {
   color: #00252e;
 }
 
+.feature {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feature {
+    text-align: left;
+  }
+}
+
+.feature .grid {
+  padding: 3rem 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feature .grid {
+    grid-gap: 10%;
+    grid-auto-flow: dense;
+  }
+}
+
+.feature .grid-col {
+  margin-bottom: 4rem;
+}
+
+.feature .left {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.feature .right {
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.feature img {
+  max-width: 100%;
+}
+
+.feature .heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .feature .heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.feature p {
+  font-size: 1.25rem;
+}
+
+.with-bg {
+  background: url(../images/bg-section-top-desktop.svg) repeat-x top center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
