@@ -51,6 +51,7 @@ body {
   -webkit-box-shadow: 0 1px 15px -10px #00252e;
           box-shadow: 0 1px 15px -10px #00252e;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 
 .btn-secondary {
@@ -62,6 +63,7 @@ body {
   border-radius: 2rem;
   -webkit-box-shadow: 0 1px 15px -10px #00252e;
           box-shadow: 0 1px 15px -10px #00252e;
+  cursor: pointer;
 }
 
 .heading-1 {
@@ -384,6 +386,7 @@ p {
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 
 .footer .attribution {

@@ -48,6 +48,7 @@ body {
   font-weight: 700;
   box-shadow: 0 1px 15px -10px $neutral-dark;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 
 .btn-secondary {
@@ -58,6 +59,7 @@ body {
   border: 1px solid $primary-color;
   border-radius: 2rem;
   box-shadow: 0 1px 15px -10px $neutral-dark;
+  cursor: pointer;
 }
 
 .heading-1 {
@@ -327,6 +329,7 @@ p {
       font-weight: 700;
       align-self: flex-end;
       margin-bottom: 2rem;
+      cursor: pointer;
     }
   }
 
