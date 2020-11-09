@@ -155,7 +155,9 @@ p {
   }
 
   .flex {
-    flex-direction: row-reverse;
+    @include media-lg {
+      flex-direction: row-reverse;
+    }
   }
 
   .flex-item {
@@ -205,7 +207,9 @@ p {
   }
 
   .flex {
-    flex-direction: row-reverse;
+    @include media-lg {
+      flex-direction: row-reverse;
+    }
   }
 
   .flex-item {
