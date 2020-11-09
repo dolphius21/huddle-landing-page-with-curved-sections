@@ -126,9 +126,8 @@ p {
 }
 
 .hero .flex {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .hero .flex-item {
@@ -153,7 +152,7 @@ p {
   background-color: #f5faff;
   background-image: url(../images/bg-section-top.svg), url(../images/bg-section-bottom.svg);
   background-size: 500px;
-  background-position: top center, bottom center;
+  background-position: top center, bottom -1px center;
   background-repeat: repeat-x;
   padding: 200px 0;
   text-align: center;
@@ -162,8 +161,15 @@ p {
 @media screen and (min-width: 768px) {
   .grow {
     text-align: left;
-    background-size: 1400px;
+    background-size: 1200px;
   }
+}
+
+.grow .flex {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 @media screen and (min-width: 768px) {
@@ -178,7 +184,7 @@ p {
 }
 
 .flowing {
-  padding: 170px 0 120px;
+  padding: 120px 0 120px;
   text-align: center;
 }
 
@@ -203,7 +209,7 @@ p {
   background-color: #f5faff;
   background-image: url(../images/bg-section-top.svg), url(../images/bg-section-bottom.svg);
   background-size: 500px;
-  background-position: top center, bottom center;
+  background-position: top center, bottom -1px center;
   background-repeat: repeat-x;
   padding: 200px 0;
   text-align: center;
@@ -212,8 +218,15 @@ p {
 @media screen and (min-width: 768px) {
   .users {
     text-align: left;
-    background-size: 1400px;
+    background-size: 1200px;
   }
+}
+
+.users .flex {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 @media screen and (min-width: 768px) {
@@ -244,7 +257,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .footer {
-    background-size: 1500px;
+    background-size: 1300px;
     padding: 200px 0 1rem;
   }
 }
@@ -382,6 +395,6 @@ p {
 
 .footer .attribution a {
   font-size: 11px;
-  color: #3e52a3;
+  color: #ff52bf;
 }
 /*# sourceMappingURL=main.css.map */

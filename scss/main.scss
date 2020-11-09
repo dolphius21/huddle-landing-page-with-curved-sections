@@ -116,7 +116,7 @@ p {
   }
 
   .flex {
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   .flex-item {
@@ -142,14 +142,18 @@ p {
   background-color: $blue-accent-light;
   background-image: url(../images/bg-section-top.svg), url(../images/bg-section-bottom.svg);
   background-size: 500px;
-  background-position: top center, bottom center;
+  background-position: top center, bottom -1px center;
   background-repeat: repeat-x;
   padding: 200px 0;
   text-align: center;
 
   @include media-lg {
     text-align: left;
-    background-size: 1400px;
+    background-size: 1200px;
+  }
+
+  .flex {
+    flex-direction: row-reverse;
   }
 
   .flex-item {
@@ -165,7 +169,7 @@ p {
 }
 
 .flowing {
-  padding: 170px 0 120px;
+  padding: 120px 0 120px;
   text-align: center;
 
   @include media-lg {
@@ -188,14 +192,18 @@ p {
   background-color: $blue-accent-light;
   background-image: url(../images/bg-section-top.svg), url(../images/bg-section-bottom.svg);
   background-size: 500px;
-  background-position: top center, bottom center;
+  background-position: top center, bottom -1px center;
   background-repeat: repeat-x;
   padding: 200px 0;
   text-align: center;
 
   @include media-lg {
     text-align: left;
-    background-size: 1400px;
+    background-size: 1200px;
+  }
+
+  .flex {
+    flex-direction: row-reverse;
   }
 
   .flex-item {
@@ -225,7 +233,7 @@ p {
   color: white;
 
   @include media-lg {
-    background-size: 1500px;
+    background-size: 1300px;
     padding: 200px 0 1rem;
   }
 
@@ -330,7 +338,7 @@ p {
 
     a {
       font-size: 11px;
-      color: hsl(228, 45%, 44%);
+      color: $primary-color;
     }
   }
 }
