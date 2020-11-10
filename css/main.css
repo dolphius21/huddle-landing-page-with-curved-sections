@@ -48,10 +48,17 @@ body {
   border: none;
   border-radius: 2rem;
   font-weight: 700;
-  -webkit-box-shadow: 0 1px 15px -10px #00252e;
-          box-shadow: 0 1px 15px -10px #00252e;
+  -webkit-box-shadow: 0 1px 15px -10px #7a1756;
+          box-shadow: 0 1px 15px -10px #7a1756;
   margin-bottom: 2rem;
   cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.btn-primary:hover {
+  -webkit-box-shadow: 0 4px 15px -6px #7a1756;
+          box-shadow: 0 4px 15px -6px #7a1756;
 }
 
 .btn-secondary {
@@ -61,9 +68,16 @@ body {
   font-size: 0.9rem;
   border: 1px solid #ff52bf;
   border-radius: 2rem;
-  -webkit-box-shadow: 0 1px 15px -10px #00252e;
-          box-shadow: 0 1px 15px -10px #00252e;
+  -webkit-box-shadow: 0 1px 15px -10px #7a1756;
+          box-shadow: 0 1px 15px -10px #7a1756;
   cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.btn-secondary:hover {
+  -webkit-box-shadow: 0 3px 15px -7px #7a1756;
+          box-shadow: 0 3px 15px -7px #7a1756;
 }
 
 .heading-1 {
@@ -340,6 +354,19 @@ p {
   margin: 2rem 0;
 }
 
+.footer .social-icons a {
+  color: white;
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  transition: -webkit-transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+.footer .social-icons a:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
 .footer .subscribe {
   width: 100%;
   display: -webkit-box;
@@ -391,6 +418,12 @@ p {
       align-self: flex-end;
   margin-bottom: 2rem;
   cursor: pointer;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.footer .subscribe-btn:hover {
+  background-color: #ff96d8;
 }
 
 .footer .attribution {

@@ -1,4 +1,5 @@
 $primary-color: hsl(322, 100%, 66%);
+$dark-primary: #7a1756;
 $neutral-dark: hsl(192, 100%, 9%);
 $neutral-light: #a7b9c8;
 $blue-accent-light: hsl(207, 100%, 98%);
@@ -46,9 +47,14 @@ body {
   border: none;
   border-radius: 2rem;
   font-weight: 700;
-  box-shadow: 0 1px 15px -10px $neutral-dark;
+  box-shadow: 0 1px 15px -10px $dark-primary;
   margin-bottom: 2rem;
   cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 4px 15px -6px $dark-primary;
 }
 
 .btn-secondary {
@@ -58,8 +64,13 @@ body {
   font-size: 0.9rem;
   border: 1px solid $primary-color;
   border-radius: 2rem;
-  box-shadow: 0 1px 15px -10px $neutral-dark;
+  box-shadow: 0 1px 15px -10px $dark-primary;
   cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.btn-secondary:hover {
+  box-shadow: 0 3px 15px -7px $dark-primary;
 }
 
 .heading-1 {
@@ -295,6 +306,15 @@ p {
     width: 120px;
     justify-content: space-between;
     margin: 2rem 0;
+
+    a {
+      color: white;
+      transition: transform 0.5s ease-out;
+    }
+
+    a:hover {
+      transform: translateY(-10px);
+    }
   }
 
   .subscribe {
@@ -334,6 +354,11 @@ p {
       align-self: flex-end;
       margin-bottom: 2rem;
       cursor: pointer;
+      transition: background-color 0.5s ease-out;
+    }
+
+    &-btn:hover {
+      background-color: #ff96d8;
     }
   }
 
