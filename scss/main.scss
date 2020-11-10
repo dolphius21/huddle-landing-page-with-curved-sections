@@ -155,7 +155,7 @@ p {
 
 .grow {
   background-color: $blue-accent-light;
-  background-image: url(../images/bg-section-top.svg), url(../images/bg-section-bottom.svg);
+  background-image: url(../images/bg-section-top.jpg), url(../images/bg-section-bottom.jpg);
   background-size: 500px;
   background-position: top center, bottom -1px center;
   background-repeat: repeat-x;
@@ -207,7 +207,7 @@ p {
 
 .users {
   background-color: $blue-accent-light;
-  background-image: url(../images/bg-section-top.svg), url(../images/bg-section-bottom.svg);
+  background-image: url(../images/bg-section-top.jpg), url(../images/bg-section-bottom.jpg);
   background-size: 500px;
   background-position: top center, bottom -1px center;
   background-repeat: repeat-x;
@@ -244,7 +244,7 @@ p {
 
 .footer {
   background-color: $neutral-dark;
-  background-image: url(../images/bg-footer-top.svg);
+  background-image: url(../images/bg-footer-top.jpg);
   background-size: 500px;
   background-position: top center;
   background-repeat: repeat-x;

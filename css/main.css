@@ -54,6 +54,7 @@ body {
   cursor: pointer;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  outline: none;
 }
 
 .btn-primary:hover {
@@ -73,6 +74,7 @@ body {
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  outline: none;
 }
 
 .btn-secondary:hover {
@@ -166,7 +168,7 @@ p {
 
 .grow {
   background-color: #f5faff;
-  background-image: url(../images/bg-section-top.svg), url(../images/bg-section-bottom.svg);
+  background-image: url(../images/bg-section-top.jpg), url(../images/bg-section-bottom.jpg);
   background-size: 500px;
   background-position: top center, bottom -1px center;
   background-repeat: repeat-x;
@@ -225,7 +227,7 @@ p {
 
 .users {
   background-color: #f5faff;
-  background-image: url(../images/bg-section-top.svg), url(../images/bg-section-bottom.svg);
+  background-image: url(../images/bg-section-top.jpg), url(../images/bg-section-bottom.jpg);
   background-size: 500px;
   background-position: top center, bottom -1px center;
   background-repeat: repeat-x;
@@ -267,7 +269,7 @@ p {
 
 .footer {
   background-color: #00252e;
-  background-image: url(../images/bg-footer-top.svg);
+  background-image: url(../images/bg-footer-top.jpg);
   background-size: 500px;
   background-position: top center;
   background-repeat: repeat-x;

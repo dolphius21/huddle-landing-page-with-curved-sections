@@ -7,5 +7,5 @@
 	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#F6FBFF;}
 </style>
 <rect class="st0" width="1400" height="165"/>
-<path class="st1" d="M1400,165V82.5c-266,108.5-478.3,60-736,0C405,5,189-6,0,82.5L0,165H1400z"/>
+<path class="st1" d="M1400,165V82.5c-266,108.5-478.3,60-736,0C405,5,189-6,0,82.5V165H1400z"/>
 </svg>
