@@ -51,6 +51,7 @@ body {
   margin-bottom: 2rem;
   cursor: pointer;
   transition: all 0.5s ease-out;
+  outline: none;
 }
 
 .btn-primary:hover {
@@ -67,6 +68,7 @@ body {
   box-shadow: 0 1px 15px -10px $dark-primary;
   cursor: pointer;
   transition: all 0.3s ease-out;
+  outline: none;
 }
 
 .btn-secondary:hover {
