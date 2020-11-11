@@ -121,7 +121,7 @@ p {
 
 .hero {
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 1.5rem;
 
   @include media-lg {
     padding: 100px 0 3rem;
@@ -168,7 +168,7 @@ p {
   background-size: 500px;
   background-position: top center, bottom -1px center;
   background-repeat: repeat-x;
-  padding: 200px 0;
+  padding: 200px 1.5rem;
   text-align: center;
 
   @include media-lg {
@@ -195,7 +195,7 @@ p {
 }
 
 .flowing {
-  padding: 120px 0 120px;
+  padding: 120px 1.5rem 120px;
   text-align: center;
 
   @include media-lg {
@@ -220,7 +220,7 @@ p {
   background-size: 500px;
   background-position: top center, bottom -1px center;
   background-repeat: repeat-x;
-  padding: 200px 0;
+  padding: 200px 1.5rem;
   text-align: center;
 
   @include media-lg {
@@ -247,7 +247,7 @@ p {
 }
 
 .call-out {
-  padding: 200px 0;
+  padding: 200px 1.5rem;
   text-align: center;
 }
 
@@ -257,7 +257,7 @@ p {
   background-size: 500px;
   background-position: top center;
   background-repeat: repeat-x;
-  padding: 150px 0 1rem;
+  padding: 150px 1.5rem 1rem;
   color: white;
 
   @include media-lg {
@@ -356,7 +356,6 @@ p {
       display: block;
       padding: 0.75rem 2rem;
       border-radius: 0.25rem;
-      width: 40%;
       border: none;
       outline: none;
       background-color: $primary-color;
